@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HITO</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="../styles/global.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    </head>
+    <body class="bg-gradient-to-r from-zinc-600 to-zinc-800 grid grid-rows-layout gap-y-8">
+        <h1 class="text-white text-6xl text-center mb-5 font-bold">XML Y JSON</h1>
+        <div class="inline-block ">
+            <ul class="ul mt-4">
+                <li class="li">
+                    <a href="#XML">
+                        <i class="fa-solid fa-cube"></i>
+                    </a>
+                </li>
+                <li class="li">
+                    <a href="#JSON">
+                        <i class="fa-solid fa-bell"></i>
+                    </a>
+                </li>
+                <li class="li">
+                    <a href="#redes">
+                        <i class="fa-solid fa-list"></i>
+                    </a>
+                </li>
+                <div class="marker"></div>
+            </ul>
+        </div>
+
+        
+            <div class=" w-full max-w-[1400px] mx-auto grid grid-rows-3 grid-cols-4 gap-x-8 gap-y-8 mb-4 auto-rows-[40rem]">
+                <div class="col-span-3 row-span-3 p-4 shadoww rounded-xl container-fluid ">
+                    <div class="overflow-auto">
+                        <p id="textToSearch" class="text-white text-balance opacity-75 text-lg md:text-xl lg:text-2xl">
+                            XML (Extensible Markup Language) y JSON (JavaScript Object Notation) son formatos de datos 
+                            utilizados para almacenar y transportar información de manera estructurada. Ambos tienen sus 
+                            propias características y se utilizan en diferentes contextos, aunque a menudo se superponen 
+                            en sus usos.
+                        </p>
+                        <br>
+                        <p id="XML" id="textToSearch" class="text-white opacity-75 text-lg md:text-xl lg:text-2xl">
+                            <strong>
+                                XML (Extensible Markup Language): 
+                                <br>
+                                <br>
+                            </strong>
+                
+                            XML es un lenguaje de marcado que se utiliza para describir y estructurar datos de manera 
+                            jerárquica.
+                            Utiliza etiquetas personalizadas para definir la estructura de los datos.
+                            Es muy flexible y extensible, lo que significa que puedes definir tus propias etiquetas y 
+                            estructuras de datos según tus necesidades.
+                            Es legible para los humanos y puede ser fácilmente interpretado por las máquinas.
+                            Se utiliza en una variedad de aplicaciones, incluyendo la transferencia de datos entre 
+                            sistemas, el almacenamiento de datos, la configuración de aplicaciones y la representación 
+                            de documentos estructurados.
+                        </p>
+                        <br>
+                        <p id="JSON" id="textToSearch" class="text-white opacity-75 text-lg md:text-xl lg:text-2xl">
+                            <strong>
+                                JSON (JavaScript Object Notation):
+                                <br>
+                                <br>
+                            </strong>
+                            JSON es un formato de intercambio de datos ligero y fácil de leer y escribir.
+                            Está basado en la sintaxis de los objetos JavaScript, lo que lo hace familiar para los 
+                            desarrolladores que trabajan con JavaScript.
+                            Utiliza pares de clave-valor para representar datos estructurados.
+                            Es más compacto que XML y a menudo es más rápido de analizar y procesar.
+                            Es ampliamente utilizado en aplicaciones web y servicios web como un formato 
+                            de intercambio de datos, especialmente en el desarrollo de aplicaciones web basadas en 
+                            JavaScript y en la comunicación entre clientes y servidores.
+                        </p>
+                        <br>
+                        <p id="textToSearch" class="text-white opacity-75 text-lg md:text-xl lg:text-2xl">
+                            En resumen, <strong>XML y JSON</strong> son formatos de datos populares y ampliamente utilizados para 
+                            estructurar y transportar información de manera legible tanto para humanos como para 
+                            máquinas. Cada uno tiene sus propias ventajas y se utiliza en diferentes contextos 
+                            dependiendo de los requisitos del proyecto y las preferencias del desarrollador.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="shadoww rounded-xl row-span-3 flex flex-col justify-center items-center">
+                    <h1 class="text-white text-6xl text-center mb-28 font-bold">SECCIONES</h1>
+                    <div class="mb-8">
+                        <button id="xmlButton" class="px-12 py-4 text-white">XML</button>
+                    </div>
+                    <div class="mb-8">
+                        <button id="jsonButton" class="px-12 py-4 text-white">JSON</button>
+                    </div>
+                    <div class="mb-8">
+                        <button id="contactButton" class="px-12 py-4 text-white">CONTACTO</button>
+                    </div>
+                    <div class="mb-8">
+                        <button id="BLOGButton" class="px-12 py-4 text-white">ACCEDER AL BLOG</button>
+                    </div>
+                </div>
+                <div class="col-span-1 row-span-1 shadoww text-white p-2 footer rounded-xl">
+                    <div class="flex justify-center">
+                        <div class="input-wrapper">
+                            <button id="searchButton" class="icon"> 
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="25px" width="25px">
+                                <path stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5" stroke="#fff" d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z"></path>
+                                <path stroke-linejoin="round" stroke-linecap="round" stroke-width="1.5" stroke="#fff" d="M22 22L20 20"></path>
+                            </svg>
+                            </button>
+                            <input id="searchInput" placeholder="Buscar" class="input" name="text" type="text">
+                        </div>
+                    </div>
+                </div>
+                <div class="row-span-1 col-span-3  shadoww text-white p-2 footer rounded-xl">
+                    
+                </div>
+            </div>
+            <div class=" w-full max-w-[400px] mx-auto relative rounded-lg bg-slate-900 p-2  shadoww">
+                <div class="relative flex text-center">
+                    <div class="flex pl-3.5 pt-3"><svg viewBox="0 0 24 24" fill="currentColor" class="-ml-0.5 mr-1.5 h-3 w-3 text-red-500/20">
+                        <circle r="12" cy="12" cx="12"></circle>
+                    </svg><svg viewBox="0 0 24 24" fill="currentColor" class="-ml-0.75 mr-1.5 h-3 w-3 text-yellow-500/20">
+                        <circle r="12" cy="12" cx="12"></circle>
+                    </svg><svg viewBox="0 0 24 24" fill="currentColor" class="-ml-0.75 mr-1.5 h-3 w-3 text-green-500/20">
+                        <circle r="12" cy="12" cx="12"></circle>
+                    </svg></div><span class="absolute inset-x-0 top-2 text-xs text-slate-500">lluanllax console</span>
+                </div>
+                <div class="mt-5 space-y-1.5 px-5 pb-10">
+                    <p class="mt-4 font-mono text-xs font-normal tracking-wide text-violet-400">
+                        <span class="text-slate-500">&lt;</span><span class="text-pink-400">Card</span><span class="text-slate-500">&gt;</span>
+                    </p>
+                    <p class="ml-3 font-mono text-xs font-normal tracking-wide text-violet-400">
+                        <span class="text-slate-500">&lt;</s><span class="text-pink-400">Text</span><span class="text-slate-500">&gt;</span><span class="relative inline-block px-1 before:absolute before:-inset-0.5 before:block before:rounded before:bg-blue-500/10"><span class="relative text-blue-400">Ticket Sales</span></span><span class="text-slate-500">&lt;/</span><span class="text-pink-400">Text</span><span class="text-slate-500">&gt;</span>
+                    </p>
+                    <p class="ml-3 font-mono text-xs font-normal leading-4 tracking-wide text-violet-400">
+                        <span class="text-slate-500">&lt;</span><span class="text-pink-400">Metric</span><span class="text-slate-500">&gt;</span><span class="relative inline-block px-1 before:absolute before:-inset-0.5 before:block before:rounded before:bg-blue-500/10"><span class="relative text-blue-400">$ 71,465</span></span><span class="text-slate-500">&lt;/</span><span class="text-pink-400">Metric</span><span class="text-slate-500">&gt;</span>
+                    </p>
+                    <p class="ml-3 font-mono text-xs font-normal tracking-wide text-violet-400">
+                        <span class="text-slate-500">&lt;</span><span class="text-pink-400">Flex</span><span class="ml-2 text-violet-400">className<span class="text-slate-500">=</span><span class="relative inline-block px-1 before:absolute before:-inset-0.5 before:block before:rounded before:bg-blue-500/10"><span class="relative text-blue-400">"mt-3"</span></span></span><span class="text-slate-500">&gt;</span>
+                    </p>
+                    <p class="ml-6 font-mono text-xs font-normal tracking-wide text-violet-400">
+                        <span class="text-slate-500">&lt;</span><span class="text-pink-400">Text</span><span class="text-slate-500">&gt;</span><span class="text-slate-500">&lt;</span><span class="text-pink-400">Bold</span><span class="text-slate-500">&gt;</span><span class="relative inline-block px-1 before:absolute before:-inset-0.5 before:block before:rounded before:bg-blue-500/10"><span class="relative text-blue-400">32%</span></span><span class="text-slate-500">&lt;/</span><span class="text-pink-400">Bold</span><span class="text-slate-500">&gt;</span><span class="relative inline-block px-1 before:absolute before:-inset-0.5 before:block before:rounded before:bg-blue-500/10"><span class="relative text-blue-400">of annual target</span></span><span class="text-slate-500">&lt;/</span><span class="text-pink-400">Text</span><span class="text-slate-500">&gt;</span>
+                    </p>
+                    <p class="ml-6 font-mono text-xs font-normal tracking-wide text-violet-400">
+                        <span class="text-slate-500">&lt;</span><span class="text-pink-400">Text</span><span class="text-slate-500">&gt;</span><span class="relative inline-block px-1 before:absolute before:-inset-0.5 before:block before:rounded before:bg-blue-500/10"><span class="relative text-blue-400">$ 223,328</span></span><span class="text-slate-500">&lt;/</span><span class="text-pink-400">Text</span><span class="text-slate-500">&gt;</span>
+                    </p>
+                    <p class="ml-3 font-mono text-xs font-normal tracking-wide text-violet-400">
+                        <span class="text-slate-500">&lt;/</span><span class="text-pink-400">Flex</span><span class="text-slate-500">&gt;</span>
+                    </p>
+                    <p class="ml-3 font-mono text-xs font-normal leading-4 tracking-wide text-violet-400">
+                        <span class="text-slate-500">&lt;</span><span class="text-pink-400">ProgressBar</span><span class="ml-2 text-violet-400">value<span class="text-slate-500">=</span><span class="relative inline-block px-1 before:absolute before:-inset-0.5 before:block before:rounded before:bg-blue-500/10"><span class="relative text-blue-400">{ 32 }</span></span></span><span class="ml-2 text-violet-400">className<span class="text-slate-500">=</span><span class="relative inline-block px-1 before:absolute before:-inset-0.5 before:block before:rounded before:bg-blue-500/10"><span class="relative text-blue-400">"mt-3"</span></span></span><span class="text-slate-500">/&gt;</span>
+                    </p>
+                    <p class="font-mono text-xs font-normal tracking-wide text-violet-400">
+                        <span class="text-slate-500">&lt;/</span><span class="text-pink-400">Card</span><span class="text-slate-500">&gt;</span>
+                    </p>
+                </div>
+            </div>
+        <footer id="redes" class=" shadoww text-white p-2 footer rounded-xl FOO">
+            <div class="containeer">
+                <a href="https://www.youtube.com" class="aa" style="--color: #e1306c">
+                    <i class="uil uil-youtube"></i>
+                </a>
+                <a href="https://twitter.com/home?lang=es" class="aa" style="--color: #0072b1">
+                    <i class="uil uil-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com" class="aa" style="--color: #e81cff">
+                    <i class="uil uil-instagram"></i>
+                </a>
+                <a href="https://github.com" class="aa" style="--color: #282330">
+                    <i class="uil uil-github"></i>
+                </a>
+            </div>
+        </footer>
+        <script src="../components/seacher.js"></script>
+        <script src="../components/buttom.js"></script>
+        <script src="../components/script.js"></script>
+    </body>
+</html>

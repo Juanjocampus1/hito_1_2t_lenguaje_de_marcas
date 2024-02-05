@@ -1,0 +1,32 @@
+{
+    "name": "hito-1-de-lenguaje-de-marcas",
+    "version": "1.0.0",
+    "description": "Página web con HTML, Tailwind CSS, CSS y JS sobre JSON y XML.",
+    "scripts": {
+        "start": "echo \"Este proyecto no requiere un servidor de desarrollo.\"",
+        "start:ide": "pnpm install && pnpm run dev"
+    },
+    "keywords": [
+        "HTML",
+        "Tailwind CSS",
+        "CSS",
+        "JS",
+        "JSON",
+        "XML"
+    ],
+    "author": "Juanjo",
+    "license": "MIT",
+    "devDependencies": {
+        "tailwindcss": "^3.0.0",
+        "autoprefixer": "^10.4.0",
+        "postcss": "^8.4.5"
+    },
+    "dependencies": {
+        "font-awesome": "^6.1.1"
+    },
+    "files": [
+        "buttom.js",
+        "contacta.html",
+        "tailwind.config.js"
+    ]
+}
