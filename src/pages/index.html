@@ -33,17 +33,17 @@
         </div>
 
         
-            <div class=" w-full max-w-[1400px] mx-auto grid grid-rows-3 grid-cols-4 gap-x-8 gap-y-8 mb-4 auto-rows-[40rem]">
-                <div class="col-span-3 row-span-3 p-4 shadoww rounded-xl container-fluid ">
+            <div class=" w-full max-w-[1400px] mx-auto grid grid-rows-3  grid-cols-4 gap-x-8 gap-y-8 mb-4 auto-rows-auto">
+                <div class="col-span-3 row-span-3 p-4 shadoww rounded-xl">
                     <div class="overflow-auto">
-                        <p id="textToSearch" class="text-white text-balance opacity-75 text-lg md:text-xl lg:text-2xl">
+                        <p textToSearch class="textToSearch text-white text-balance opacity-75 text-lg md:text-xl lg:text-2xl">
                             XML (Extensible Markup Language) y JSON (JavaScript Object Notation) son formatos de datos 
                             utilizados para almacenar y transportar información de manera estructurada. Ambos tienen sus 
                             propias características y se utilizan en diferentes contextos, aunque a menudo se superponen 
                             en sus usos.
                         </p>
                         <br>
-                        <p id="XML" id="textToSearch" class="text-white opacity-75 text-lg md:text-xl lg:text-2xl">
+                        <p id="XML"  class="textToSearch text-white opacity-75 text-lg md:text-xl lg:text-2xl">
                             <strong>
                                 XML (Extensible Markup Language): 
                                 <br>
@@ -61,7 +61,7 @@
                             de documentos estructurados.
                         </p>
                         <br>
-                        <p id="JSON" id="textToSearch" class="text-white opacity-75 text-lg md:text-xl lg:text-2xl">
+                        <p id="JSON" class=" textToSearch text-white opacity-75 text-lg md:text-xl lg:text-2xl">
                             <strong>
                                 JSON (JavaScript Object Notation):
                                 <br>
@@ -77,7 +77,7 @@
                             JavaScript y en la comunicación entre clientes y servidores.
                         </p>
                         <br>
-                        <p id="textToSearch" class="text-white opacity-75 text-lg md:text-xl lg:text-2xl">
+                        <p  class=" textToSearch text-white opacity-75 text-lg md:text-xl lg:text-2xl">
                             En resumen, <strong>XML y JSON</strong> son formatos de datos populares y ampliamente utilizados para 
                             estructurar y transportar información de manera legible tanto para humanos como para 
                             máquinas. Cada uno tiene sus propias ventajas y se utiliza en diferentes contextos 
@@ -114,8 +114,70 @@
                         </div>
                     </div>
                 </div>
-                <div class="row-span-1 col-span-3  shadoww text-white p-2 footer rounded-xl">
-                    
+                <div class="col-span-3 row-span-1 p-4 shadoww rounded-xl">
+                    <div class="overflow-auto">
+                        <p class="textToSearch text-white text-balance opacity-75 text-lg md:text-xl lg:text-2xl">
+                            <strong>
+                            XML:
+                            <br>
+                            <br>
+                            </strong>
+
+                            Validación: XML tiene soporte integrado para la validación de datos mediante 
+                            el uso de Document Type Definitions (DTD) o XML Schema Definitions (XSD). 
+                            Esto permite garantizar que los datos cumplan con ciertas reglas y estructuras 
+                            antes de ser procesados.
+                        </p>
+                        <br>
+                        <p class="textToSearch text-white opacity-75 text-lg md:text-xl lg:text-2xl">
+                            Namespaces: XML admite el concepto de espacios de nombres (namespaces), lo que 
+                            permite evitar conflictos de nombres y organizar los datos de manera más estructurada 
+                            y modular.
+                        </p>
+                        <br>
+                        <p class="textToSearch text-white opacity-75 text-lg md:text-xl lg:text-2xl">
+                            Transformaciones: XML se presta bien a las transformaciones mediante el uso de lenguajes 
+                            como XSLT (Extensible Stylesheet Language Transformations), lo que permite convertir 
+                            y presentar los datos en diferentes formatos y estructuras.
+                        </p>
+                        <br>
+                        <p class="textToSearch text-white opacity-75 text-lg md:text-xl lg:text-2xl">
+                            Uso en industrias específicas: XML se utiliza en una variedad de industrias específicas, 
+                            como la industria de publicaciones (por ejemplo, en la creación de documentos estructurados 
+                            como libros electrónicos), la industria financiera (para el intercambio de datos entre sistemas 
+                            financieros), y la industria de la salud (para el intercambio de registros médicos electrónicos, 
+                            entre otros usos).
+                        </p>
+                        <p class="textToSearch text-white opacity-75 text-lg md:text-xl lg:text-2xl">
+                            <strong>
+                            JSON:
+                            <br>
+                            <br>
+                            </strong>
+                            Ligereza y simplicidad: JSON se destaca por su simplicidad y facilidad de uso. Es más ligero 
+                            que XML en términos de sintaxis y tamaño de archivo, lo que lo hace ideal para transferencias 
+                            de datos en redes con ancho de banda limitado.
+                        </p>
+                        <p class="textToSearch text-white opacity-75 text-lg md:text-xl lg:text-2xl">
+                            Soporte nativo en JavaScript: JSON es parte integral de JavaScript, lo que significa que su 
+                            sintaxis es directamente compatible con la de los objetos JavaScript. Esto facilita la manipulación 
+                            de datos JSON en aplicaciones web que utilizan JavaScript en el lado del cliente.
+                        </p>
+                        <p class="textToSearch text-white opacity-75 text-lg md:text-xl lg:text-2xl">
+                            Uso en APIs RESTful: JSON es el formato de datos preferido en muchas APIs web RESTful debido a 
+                            su simplicidad y facilidad de uso. Es fácil de serializar y deserializar en objetos en lenguajes 
+                            de programación como JavaScript, Python, Java, etc
+                        </p>
+                        <p class="textToSearch text-white opacity-75 text-lg md:text-xl lg:text-2xl">
+                            No soporta comentarios: A diferencia de XML, JSON no admite comentarios, lo que puede limitar 
+                            su capacidad para documentar o anotar los datos con información adicional.
+                        </p>
+                        <p class="textToSearch text-white opacity-75 text-lg md:text-xl lg:text-2xl">
+                            En resumen, XML y JSON tienen sus propias características y son adecuados para diferentes 
+                            situaciones y contextos. La elección entre XML y JSON dependerá de las necesidades específicas 
+                            del proyecto, los requisitos de interoperabilidad, el rendimiento y las preferencias del desarrollador.
+                        </p>
+                    </div>
                 </div>
             </div>
             <div class=" w-full max-w-[400px] mx-auto relative rounded-lg bg-slate-900 p-2  shadoww">
@@ -157,6 +219,18 @@
                         <span class="text-slate-500">&lt;/</span><span class="text-pink-400">Card</span><span class="text-slate-500">&gt;</span>
                     </p>
                 </div>
+            </div>
+            <div class=" w-full max-w-[400px] mx-auto">
+                <p class="text-white opacity-75">
+                    Este es un ejemplo de codigo xml que se puede utilizar para 
+                    estructurar datos de manera jerarquica.
+                </p>
+                <br>
+                <p class="text-white opacity-75">
+                    Como vemos, se utilizan etiquetas personalizadas para definir
+                    la estructura de los datos, lo que facilita su interpretacion 
+                    tanto para humanos como para maquinas.
+                </p>
             </div>
         <footer id="redes" class=" shadoww text-white p-2 footer rounded-xl FOO">
             <div class="containeer">

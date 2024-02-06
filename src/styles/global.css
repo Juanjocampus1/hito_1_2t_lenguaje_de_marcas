@@ -11,6 +11,7 @@ p{
 
 body{
     font-family: Calibri, sans-serif;
+    scrollbar-width: rgb(56, 56, 56) rgb(118, 118, 118);
 }
 
 .highlight {
